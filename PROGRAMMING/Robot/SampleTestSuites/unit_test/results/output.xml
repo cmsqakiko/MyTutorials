@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20200203 17:20:05.377" rpa="false">
+<suite id="s1" name="FOR-IN-RANGE" source="C:\Users\User\PROGRAMMING\Robot\SampleTestSuites\unit_test\FOR-IN-RANGE.robot">
+<test id="s1-t1" name="Test1">
+<kw name="Print Hello World 5x">
+<kw name="${var} IN RANGE [ 1 | 5 ]" type="for">
+<kw name="${var} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello World</arg>
+</arguments>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.397"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.397"></status>
+</kw>
+<kw name="${var} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello World</arg>
+</arguments>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.397"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.397"></status>
+</kw>
+<kw name="${var} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello World</arg>
+</arguments>
+<status status="PASS" starttime="20200203 17:20:05.398" endtime="20200203 17:20:05.398"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.398"></status>
+</kw>
+<kw name="${var} = 4" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hello World</arg>
+</arguments>
+<status status="PASS" starttime="20200203 17:20:05.398" endtime="20200203 17:20:05.398"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.398" endtime="20200203 17:20:05.398"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.398"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.397" endtime="20200203 17:20:05.398"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.396" endtime="20200203 17:20:05.398" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Test2">
+<kw name="InRange">
+<kw name="${x} IN RANGE [ 1 ]" type="for">
+<kw name="${x} = 0" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${x}</arg>
+</arguments>
+<status status="PASS" starttime="20200203 17:20:05.399" endtime="20200203 17:20:05.399"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.399" endtime="20200203 17:20:05.399"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.399" endtime="20200203 17:20:05.399"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.398" endtime="20200203 17:20:05.399"></status>
+</kw>
+<status status="PASS" starttime="20200203 17:20:05.398" endtime="20200203 17:20:05.399" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200203 17:20:05.378" endtime="20200203 17:20:05.399"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" id="s1" name="FOR-IN-RANGE">FOR-IN-RANGE</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

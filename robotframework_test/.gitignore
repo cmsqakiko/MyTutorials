@@ -1,0 +1,9 @@
+# Exclude the produced results
+*.png
+*.html
+*.xml
+*.txt
+
+#Exclude these files
+debug.log
+
